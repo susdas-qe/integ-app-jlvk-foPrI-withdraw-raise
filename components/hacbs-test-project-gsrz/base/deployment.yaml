@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-gsrz
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/redhat-appstudio-qe/integration1-vptt-tenant/integ-app-jlvk/hacbs-test-project-gsrz@sha256:1957c611fcc77877bf3df717aaed17907329f89e61f049d272738d7d65dcacdf
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
